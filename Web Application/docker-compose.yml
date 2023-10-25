@@ -1,0 +1,5 @@
+services:
+  trash_detector_app:
+    build: .
+    ports:
+      - "8069:8080"
